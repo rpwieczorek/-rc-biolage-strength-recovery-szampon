@@ -243,19 +243,19 @@ body {
     &__subtitle {
       @include text;
       color: $dark-green;
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 700;
       padding-bottom: 25px;
     }
     &__text {
       @include text;
       color: $dark-green;
-      padding-bottom: 25px;
+      font-size: 15px;
       font-weight: 300;
     }
     &__list {
       margin: 0;
-      padding: 0 15px;
+      padding: 25px 15px;
       color: $dark-green;
       font-weight: 300;
       & li {
@@ -516,7 +516,7 @@ body {
     }
     &__right {
       width: 50% !important;
-      height: 492px;
+      height: 633px;
       overflow: hidden;
     }
     &__image {
@@ -536,7 +536,7 @@ body {
     }
     &__right {
       width: 50% !important;
-      height: 492px;
+      height: 633px;
       overflow: hidden;
     }
     &__image {
